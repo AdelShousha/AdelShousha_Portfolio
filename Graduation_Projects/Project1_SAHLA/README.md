@@ -50,15 +50,45 @@ We utilized the following dataset for training the sign language recognition mod
 
 ---
 ## 📸 Screenshots & Demo
-🚀 **[Demo Video](INSERT_YOUTUBE_OR_GOOGLE_DRIVE_LINK_HERE)**  
-🎨 **Screenshots:**  
-| Splash | Home Screen | Output Screen | loading screen |
-|------------|---------------|-------------|------|
-| ![Screenshot 1](INSERT_IMAGE_LINK_HERE) | ![Screenshot 2](INSERT_IMAGE_LINK_HERE) | ![Screenshot 3](INSERT_IMAGE_LINK_HERE) | ![Screenshot 4](INSERT_IMAGE_LINK_HERE) |
+### 🚀 **Demo Video**  
+
+<div align="center">
+    
+  https://github.com/user-attachments/assets/01e51b7b-a697-49c8-8366-440d26dc9ab6
+  
+</div>
+
+### 🎨 **Screenshots:**  
+| Splash Screen | Home Screen | Recording Screen | Loading Screen | 3D Hand Model | Output Screen |
+|------------|---------------|-------------|------|----|----|
+| ![Splash Screen](https://github.com/user-attachments/assets/597492bd-0308-43d2-a24b-240053164db0) | ![Home Screen](https://github.com/user-attachments/assets/2333ce7b-0cc6-40dd-8873-b16be912f073) | ![Recording Screen](https://github.com/user-attachments/assets/010bff68-e7c8-4a93-acb4-172a36aece36) |  ![Loading Screen](https://github.com/user-attachments/assets/be99b728-b03f-40d9-a09c-71e3ee31382b) | ![3D Hand Model](https://github.com/user-attachments/assets/25eec297-f921-4e98-9fda-200de1c653c5) | ![Output Screen](https://github.com/user-attachments/assets/b4a041be-9e93-409b-9d3c-674df68be768) |
 
 ---
+
 ## 🎯 **System Architecture Explanation**
-![System Architecture](INSERT_IMAGE_LINK_HERE)
+<div align="center">
+    
+
+  ![system architecture drawio](https://github.com/user-attachments/assets/5f921811-81d1-4092-ad69-1cdf2561cda7)
+
+</div>
+
+
+
+#### The **SAHLA system architecture** consists of **three main components**:
+
+1. **Mobile App (React Native)**
+   - Supports **Sign Language to Speech translation**.
+   - Supports **Speech to Sign Language translation**.
+   - Acts as the front-end interface for user interaction.
+
+2. **Gradio API (Backend)**
+   - Contains **two Python scripts**, each responsible for a specific translation function.
+   - Handles **video processing, speech processing, and sign language translation**.
+
+3. **Google Cloud Services**
+   - **Google Text-to-Speech (TTS):** Converts text into spoken audio.
+   - **Google Speech-to-Text (STT):** Converts spoken words into text.
 
 
 #### **1️⃣ Sign Language to Speech Translation**
@@ -190,6 +220,10 @@ This notebook is used to evaluate the performance of the trained gesture recogni
 
 
 ## Instructions for Running Notebooks
+
+
+
+
 
 1. **Environment Setup**: Make sure you have a Python environment set up with all dependencies installed.
 2. **Running Notebooks**: Open the notebooks in Jupyter or any compatible notebook interface and run them in the specified order.

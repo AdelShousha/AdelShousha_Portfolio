@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15" version="25.0.3">
+  <diagram name="Page-1" id="49HSHfitnj6Txe-Hubwh">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="skUECkQeclGTTOMpBBpG-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="10" width="370" height="1823" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-34" value="Google Text-to-Speech Processing" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;container=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="797" width="331" height="633" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-44" value="Start" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="576" y="30" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-45" value="Set up Google Cloud&#xa;Authentication" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="495" y="104" width="221" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-47" value="Configure Settings:&#xa;-Arabic  Language&#xa;- Voice: Standard-C&#xa;- Speaking Rate: 1.0&#xa;- Pitch: -2.0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="482" y="432" width="247" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-48" value="Use TextToSpeechClient() to Send Request to Google Cloud API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="486" y="635" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-49" value="Receive API Response" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="494" y="1539" width="223" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-50" value="Save Audio to MP3 File" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="494" y="1660" width="222" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-51" value="End" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="581" y="1770" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-44" target="skUECkQeclGTTOMpBBpG-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-45" target="skUECkQeclGTTOMpBBpG-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-47" target="skUECkQeclGTTOMpBBpG-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-49" target="skUECkQeclGTTOMpBBpG-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-50" target="skUECkQeclGTTOMpBBpG-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-48" target="skUECkQeclGTTOMpBBpG-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-68" value="text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="skUECkQeclGTTOMpBBpG-58">
+          <mxGeometry x="-0.0774" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-34" target="skUECkQeclGTTOMpBBpG-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-67" value="audio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="skUECkQeclGTTOMpBBpG-59">
+          <mxGeometry x="-0.0675" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-60" target="skUECkQeclGTTOMpBBpG-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-60" value="create TextToSpeechClient()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-61" target="skUECkQeclGTTOMpBBpG-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-61" value="Read Text" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-35" value="Text Analysis:&#xa;- Text Normalization&#xa;- Arabic Script Processing&#xa;- Sentence Segmentation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="494" y="844" width="231" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-36" value="Phonetic Processing:&#xa;- Convert Text to Phonemes&#xa;- Apply Arabic Phonetic Rules&#xa;- Handle Diacritics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="486" y="1000" width="248" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-38" value="Waveform Generation:&#xa;- Neural Voice Synthesis&#xa;- Voice Characteristics Application" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="483" y="1170" width="253" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-39" value="Audio Post-processing:&#xa;- Apply Speaking Rate&#xa;- Adjust Pitch" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="488" y="1314" width="243" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-35" target="skUECkQeclGTTOMpBBpG-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-36" target="skUECkQeclGTTOMpBBpG-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="609" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-38" target="skUECkQeclGTTOMpBBpG-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" version="26.0.2">
+  <diagram name="Page-1" id="49HSHfitnj6Txe-Hubwh">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-11" target="skUECkQeclGTTOMpBBpG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-11" value="Start" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="90" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-12" target="skUECkQeclGTTOMpBBpG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-12" value="Set up Google Cloud&#xa;Authentication" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="40" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-13" target="skUECkQeclGTTOMpBBpG-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-13" value="create SpeechClient()" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="50" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-29" value="Read Audio File" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="50" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-14" value="Configure Recognition Settings:&#xa;- Linear16 Encoding&#xa;- 44.1kHz Sample Rate&#xa;- Arabic Language&#xa;- 1 Audio Channels" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-15" value="Use SpeechClient() to Send Request to&#xa;Google Cloud API" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.011;entryY=0.093;rounded=0;fontSize=24;fontFamily=Times New Roman;horizontal=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-15" target="skUECkQeclGTTOMpBBpG-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-32" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Audio&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" connectable="0" vertex="1" parent="skUECkQeclGTTOMpBBpG-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-1" value="Google Speech-to-Text Processing" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=35;fontFamily=Times New Roman;horizontal=1;container=0;direction=south;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1101" y="340" width="1959" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.006;exitY=0.89;entryX=0.5;entryY=-0.01;rounded=0;fontSize=24;fontFamily=Times New Roman;horizontal=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-1" target="skUECkQeclGTTOMpBBpG-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;Text&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" connectable="0" vertex="1" parent="skUECkQeclGTTOMpBBpG-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-2" target="skUECkQeclGTTOMpBBpG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-2" value="Audio Preprocessing:&#xa;- Noise Reduction&#xa;- Signal Enhancement" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="455" width="407" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-3" target="skUECkQeclGTTOMpBBpG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-3" value="Feature Extraction:&#xa;- Convert Audio to&#xa;Spectral Features" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="455" width="399" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-5" value="Language Model Analysis:&#xa;- Apply Arabic Language Rules&#xa;- Grammar Check" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="455" width="380" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-6" value="Decode and Generate&#xa;Final Text" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="460" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-16" target="skUECkQeclGTTOMpBBpG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-16" value="Receive API Response" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="830" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-18" target="skUECkQeclGTTOMpBBpG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-18" value="Output Arabic Text" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="830" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="skUECkQeclGTTOMpBBpG-19" value="End" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=24;fontFamily=Times New Roman;horizontal=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="837.5" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.632;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-29" target="skUECkQeclGTTOMpBBpG-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-5" target="skUECkQeclGTTOMpBBpG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhYl4WJvosD-Qw1lUX3i-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="skUECkQeclGTTOMpBBpG-14" target="skUECkQeclGTTOMpBBpG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -78,6 +78,7 @@ We utilized the following dataset for training the sign language recognition mod
     <td align="center"><img width="80%" alt="SAHLA_Brochure_2" src="https://github.com/user-attachments/assets/4a93a627-8b0b-46aa-b6b7-9dcdc608cb41" /></td>
   </tr>
 </table>
+
 ---
 
 ## 🎯 **System Architecture Explanation**

@@ -253,6 +253,12 @@ Explore the live demos of the projects on Hugging Face Spaces:
 
 This allows you to experience the functionality without setting up the environment locally.
 
+---
+
+## 🔗 LinkedIn Post
+Check out the **LinkedIn post** about the SAHLA project here:
+[SAHLA Project on LinkedIn](https://www.linkedin.com/posts/adel-shousha_%D9%B1%D9%84%D8%AD%D9%85%D8%AF-%D9%84%D9%84%D9%87-%D9%B1%D9%84%D8%B0%DB%8C-%D9%84%D9%87%DB%A5-%D9%85%D8%A7-%D9%81%DB%8C-activity-7293972055291490304-Mr8l?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c) 🚀
+
 
 
 

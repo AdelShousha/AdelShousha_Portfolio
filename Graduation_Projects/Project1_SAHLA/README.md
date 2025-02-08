@@ -64,6 +64,21 @@ We utilized the following dataset for training the sign language recognition mod
 | ![Splash Screen](https://github.com/user-attachments/assets/597492bd-0308-43d2-a24b-240053164db0) | ![Home Screen](https://github.com/user-attachments/assets/2333ce7b-0cc6-40dd-8873-b16be912f073) | ![Recording Screen](https://github.com/user-attachments/assets/010bff68-e7c8-4a93-acb4-172a36aece36) |  ![Loading Screen](https://github.com/user-attachments/assets/be99b728-b03f-40d9-a09c-71e3ee31382b) | ![3D Hand Model](https://github.com/user-attachments/assets/25eec297-f921-4e98-9fda-200de1c653c5) | ![Output Screen](https://github.com/user-attachments/assets/b4a041be-9e93-409b-9d3c-674df68be768) |
 
 ---
+## 📜 Brochure & Banner Preview
+<table width="100%">
+  <tr>
+    <th align="center" width="75%">📜 Brochure</th>
+    <th align="center" width="25%">🖼️ Project Banner</th>
+  </tr>
+  <tr>
+    <td align="center"><img width="80%" alt="SAHLA_Brochure_1" src="https://github.com/user-attachments/assets/69d91d96-258d-4f6b-a5be-71ecb5f3647c" /></td>
+    <td rowspan="2" align="center"><img width="100%" alt="SAHLA_Banner" src="https://github.com/user-attachments/assets/ae5012c7-39f0-45f6-af4e-444a03670a42" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img width="80%" alt="SAHLA_Brochure_2" src="https://github.com/user-attachments/assets/4a93a627-8b0b-46aa-b6b7-9dcdc608cb41" /></td>
+  </tr>
+</table>
+---
 
 ## 🎯 **System Architecture Explanation**
 <div align="center">
@@ -236,5 +251,7 @@ Explore the live demos of the projects on Hugging Face Spaces:
 - [Sahla-sign2speech](https://huggingface.co/spaces/AdelShousha/Sahla-sign2speech)
 
 This allows you to experience the functionality without setting up the environment locally.
+
+
 
 

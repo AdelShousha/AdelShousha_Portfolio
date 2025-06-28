@@ -1,0 +1,283 @@
+{
+  "name": "grade questions",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "grade_question",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        140,
+        0
+      ],
+      "id": "75b17278-41f7-41ce-ba3c-3006c88eab40",
+      "name": "Webhook",
+      "webhookId": "44b3ecd1-1f89-4532-9faf-7115a541b4ec"
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1400,
+        0
+      ],
+      "id": "d6936b05-9228-47f2-92fc-fe63376bd282",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.0-flash",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        660,
+        300
+      ],
+      "id": "aceb8746-eac3-4c18-ba42-71893d70f45a",
+      "name": "Google Gemini Chat Model"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.body.questions }}",
+        "options": {
+          "systemMessage": "## Overview  \nYou are an AI agent that grades student answers based on a provided question, model answer, and student response. You evaluate the answer's accuracy, depth, and structure, assigning a grade percentage and detailed feedback.  \n\n## Context  \n- The agent receives a question, model answer, and student answer.  \n- It analyzes the student response against the model answer.  \n- A grade percentage (0.1–1.0) is assigned based on predefined criteria.  \n- Detailed feedback is provided to guide student improvement.  \n\n## Instructions  \n1. Analyze the student’s answer in comparison to the model answer.  \n2. Assign a grade percentage using the following scale:  \n   - **0.1–0.3 (10–30%)**: Off-topic, major errors, poor structure.  \n   - **0.4–0.6 (40–60%)**: Partially correct, missing key concepts, weak structure.  \n   - **0.7–0.8 (70–80%)**: Mostly correct, minor errors, limited depth.  \n   - **0.9–1.0 (90–100%)**: Fully correct, insightful, well-structured.  \n3. Provide constructive feedback addressing strengths, weaknesses, and areas for improvement.  \n4. Format the output in JSON.  \n\n## Tools  \n- Natural Language Processing (NLP) for text analysis.  \n- JSON formatting for structured output.  \n\n## Examples  \n### Low Score (0.2)  \n**Input:**  \n```json\n{\n  \"question_id\": 1,\n  \"question\": \"Explain the concept of a 'confusion matrix' in machine learning and how it is used to evaluate the performance of a classifier.\",\n  \"model_answer\": \"A confusion matrix is a table used to evaluate the performance of a classification model. It summarizes the results of the classification by showing the counts of true positive (TP), true negative (TN), false positive (FP), and false negative (FN) predictions. Each row of the matrix represents the instances in a predicted class, while each column represents the instances in an actual class. By analyzing the confusion matrix, metrics like accuracy, precision, recall, and F1-score can be calculated to assess the classifier's effectiveness and identify specific areas of strength and weakness.\",\n  \"student_answer\": \"A confusion matrix is a graph that tells you if a regression model is good. It plots numbers in a chart to show errors. For example, it can measure how close predictions are to real numbers like house prices.\"\n}\n```\n\n**Output:**  \n```json\n{\n  \"question_id\": 1,\n  \"score\": 0.2,\n  \"feedback\": \"Your answer confuses classification with regression, which is unrelated to the question. A confusion matrix is not a graph for regression errors but a table for classification models. For example, your mention of 'house prices' applies to regression, not classifiers. Major factual errors include missing the four components (TP, TN, FP, FN) and the matrix structure. Review the difference between classification and regression, and focus on how confusion matrices categorize prediction outcomes like true positives and false negatives.\"\n}\n```\n\n### Mid Score (0.5)  \n**Input:**  \n```json\n{\n  \"question_id\": 1,\n  \"student_answer\": \"A confusion matrix helps evaluate classifiers. It has numbers for true positives and false negatives. For instance, if a model predicts cancer, true positives are correct cancer predictions. From this, accuracy is calculated as (TP + TN) / total cases.\"\n}\n```\n\n**Output:**  \n```json\n{\n  \"question_id\": 1,\n  \"score\": 0.5,\n  \"feedback\": \"You correctly identified the confusion matrix’s purpose and mentioned true positives (TP) and false negatives (FN), but omitted true negatives (TN) and false positives (FP), which are critical for understanding the full matrix. Your example about cancer predictions is relevant, but the explanation of accuracy is incomplete without defining TN. Additionally, the matrix structure (rows as predicted classes, columns as actual classes) was not addressed. Strengthen your answer by defining all four quadrants and explaining how precision or recall are derived from them.\"\n}\n```\n\n### Good Score (0.7)  \n**Input:**  \n```json\n{\n  \"question_id\": 1,\n  \"student_answer\": \"A confusion matrix is a table that shows how a classifier performs. It counts correct and wrong predictions, like true positives where the model correctly predicts a positive class. For example, in spam detection, a true positive is marking spam as spam. People use it to calculate metrics like accuracy and precision.\"\n}\n```\n\n**Output:**  \n```json\n{\n  \"question_id\": 1,\n  \"score\": 0.7,\n  \"feedback\": \"Your answer correctly identifies the confusion matrix as a table for classifier evaluation and provides a valid example (spam detection). However, key details are missing: you did not define all four components (TP, TN, FP, FN) or clarify that rows represent predicted classes and columns actual classes. While you mentioned precision, you omitted recall and F1-score. To improve, explicitly define TN and FP, explain the matrix’s structure, and link metrics like recall to specific weaknesses (e.g., minimizing false negatives).\"\n}\n```\n\n### High Score (0.9)  \n**Input:**  \n```json\n{\n  \"question_id\": 1,\n  \"student_answer\": \"A confusion matrix is a table used to evaluate classifiers by categorizing predictions into four outcomes: true positives (correctly identified positives), true negatives (correctly identified negatives), false positives (incorrect positives), and false negatives (incorrect negatives). Rows represent predicted classes, and columns represent actual classes. For example, in medical testing, a false negative means failing to detect a disease. Metrics like precision (TP / (TP + FP)) and recall (TP / (TP + FN)) are derived to assess performance.\"\n}\n```\n\n**Output:**  \n```json\n{\n  \"question_id\": 1,\n  \"score\": 0.9,\n  \"feedback\": \"Excellent answer! You accurately defined all four components of the confusion matrix (TP, TN, FP, FN) and clearly explained its structure (rows as predicted, columns as actual). The medical testing example effectively illustrates false negatives, and your inclusion of precision and recall formulas demonstrates strong understanding. To reach full marks, briefly mention the F1-score as a balance between precision/recall and explain how the matrix helps prioritize improvements (e.g., reducing false negatives in medical contexts).\"\n}\n```\n\n## SOP (Standard Operating Procedure)  \n1. Receive and parse the input JSON.  \n2. Compare the student answer to the model answer.  \n3. Identify key missing elements, factual errors, and structural issues.  \n4. Assign a score based on the grading scale.  \n5. Generate detailed feedback highlighting errors and suggestions for improvement.  \n6. Format the output as structured JSON.  \n\n## Final Notes  \n- Ensure feedback is constructive and specific.  \n- Encourage students to review missing concepts and improve explanations.  \n- Maintain consistency in scoring across different answers.  \n- The JSON format must be preserved for seamless integration.  "
+        }
+      },
+      "id": "642703b2-7d7d-4a24-a4fc-896f749e3852",
+      "name": "Grade Questions Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        700,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        400,
+        0
+      ],
+      "id": "9325af97-0d80-4331-bab2-18e8187b41d0",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract the first input item (assuming there's only one)\nconst inputItem = $input.all()[0];\n\n// Clean the JSON string by removing markdown code fences\nconst cleanOutput = inputItem.json.output.replace(/```json|```/g, \"\").trim();\n\n// Parse the cleaned JSON string\nconst parsedData = JSON.parse(cleanOutput);\n\n// Return directly as it matches your target format\nreturn parsedData;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1180,
+        0
+      ],
+      "id": "f34f737d-cc6b-4545-838d-2f0a946cfedc",
+      "name": "Format output to json"
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        800,
+        220
+      ],
+      "id": "7b1aea1e-1e18-4210-aceb-6a1bbf022702",
+      "name": "Memory"
+    },
+    {
+      "parameters": {
+        "tableName": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+      "typeVersion": 1.3,
+      "position": [
+        700,
+        560
+      ],
+      "id": "47fee40c-157f-44a5-bd7f-a43a64746eed",
+      "name": "Supabase Vector Store"
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        800,
+        780
+      ],
+      "id": "8c589ce5-174b-4995-9ef9-8b5cb1296e03",
+      "name": "Embeddings Google Gemini"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        1040,
+        540
+      ],
+      "id": "145607bf-ec74-4494-81fa-b775c073c1a6",
+      "name": "Google Gemini Chat Model1"
+    },
+    {
+      "parameters": {
+        "name": "project_data",
+        "description": "Retrieve information about the projects"
+      },
+      "id": "1ebb3632-621c-429d-a13f-dae79b1dda83",
+      "name": "Retrive relevant info from vector store",
+      "type": "@n8n/n8n-nodes-langchain.toolVectorStore",
+      "typeVersion": 1,
+      "position": [
+        900,
+        320
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Grade Questions Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Grade Questions Agent": {
+      "main": [
+        [
+          {
+            "node": "Format output to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Grade Questions Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format output to json": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Grade Questions Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Supabase Vector Store": {
+      "ai_vectorStore": [
+        [
+          {
+            "node": "Retrive relevant info from vector store",
+            "type": "ai_vectorStore",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Google Gemini": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Supabase Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Retrive relevant info from vector store",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Retrive relevant info from vector store": {
+      "ai_tool": [
+        [
+          {
+            "node": "Grade Questions Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "68443fce-59ae-4744-a49c-bad308fe2241",
+  "meta": {
+    "instanceId": "8ad8f3d24923458ae0d9d183ddac529952332f4195944bd7248306fd74b187a5"
+  },
+  "id": "jBFLNUkjvqLcEJx4",
+  "tags": []
+}

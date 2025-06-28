@@ -41,9 +41,9 @@ My primary role in the SIR project was focused on the development and implementa
 
 ## 📦 Repositories
 
-* **📱 Mobile App (React Native):** `[Link to Mobile App Repository]`
+* **📱 Mobile App (React Native):** [Link to Mobile App Repository](https://github.com/Selvster/sir)
 
-* **🌐 Backend (Laravel):** `[Link to Backend Repository]`
+* **🌐 Backend (Laravel):** [Link to Backend Repository](https://github.com/Selvster/sir-api)
 
 ## 🏰 AI Tech Stack & Deployment
 
@@ -83,13 +83,28 @@ All project-related materials, including the demo video, screenshots, official d
 
 ### 🚀 **Demo Video**
 
-A comprehensive demo of the SIR application can be found in the `Project_Resources/` folder. (`Project_Resources/SIR_Demo.mp4`)
 
-*\[To embed the video here, upload it to your GitHub repository and replace the text above with the link.]*
+<div align="center">
+    
+  
+
+https://github.com/user-attachments/assets/ea1669a2-0760-44a3-ade7-b820ee530815
+
+
+  
+</div>
 
 ### 🎤 **Project Presentation**
 
-*\[Link to YouTube Video of Project Presentation]*
+<div align="center">
+    
+  <a href="https://www.youtube.com/embed/L2MjEZ3Lvxc?start=381&end=555">
+    <img src="https://github.com/user-attachments/assets/6dbb6ce4-c2e6-40ca-8c96-97dfc4b422b6" alt="presentation" width="1000">
+  </a>
+  
+</div>
+
+
 
 ### 🎨 **App Screenshots**
 

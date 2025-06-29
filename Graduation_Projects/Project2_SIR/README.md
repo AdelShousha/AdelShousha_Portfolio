@@ -135,7 +135,7 @@ https://github.com/user-attachments/assets/ea1669a2-0760-44a3-ade7-b820ee530815
       <img width="80%" alt="SIR_Brochure_Page_1" src="https://github.com/user-attachments/assets/4489f783-ec69-4dcc-b498-af6b0827341d" />
     </td>
     <td align="center" width="30%">
-      <img width="100%" alt="SIR_Banner" src="https://github.com/user-attachments/files/20963007/SIR_Banner.pdf" />
+      <img width="100%" alt="SIR_Banner" src="https://github.com/user-attachments/assets/b9de5972-5464-450f-9ecd-b4d67630894b" />
     </td>
   </tr>
   <tr>

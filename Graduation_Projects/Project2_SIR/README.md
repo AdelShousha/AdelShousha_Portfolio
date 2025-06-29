@@ -241,4 +241,4 @@ The AI service will now be running on `http://127.0.0.1:8000`. You can access th
 
 ## 🔗 LinkedIn Post
 Check out the **LinkedIn post** about the SIR project here:
-[SIR Project on LinkedIn]() 🚀
+[SIR Project on LinkedIn](https://www.linkedin.com/posts/adel-shousha_%D9%B1%D9%82%D8%B1%D8%A3-%D9%88%D8%B1%D8%A8%D9%83-%D9%B1%D9%84%D8%A3%D9%83%D8%B1%D9%85-%D9%B1%D9%84%D8%B0%DB%8C-activity-7345178146544988160-k9t8?utm_source=share&utm_medium=member_android&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c) 🚀

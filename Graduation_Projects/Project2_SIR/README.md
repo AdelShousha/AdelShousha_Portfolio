@@ -106,30 +106,49 @@ https://github.com/user-attachments/assets/ea1669a2-0760-44a3-ade7-b820ee530815
 
 
 
+
+
+
+
+
+
+
+
+
 ### 🎨 **App Screenshots**
 
-| Feature | Screenshot | 
-| ----- | ----- | 
-| **Login Screen** | *\[Insert Screenshot Link Here\]* | 
-| **Teacher** - **Classes** | *\[Insert Screenshot Link Here\]* | 
-| **Teacher - Quiz Creation** | *\[Insert Screenshot Link Here\]* | 
-| **Student - Quiz Attempt** | *\[Insert Screenshot Link Here\]* | 
-| **Student - AI-Graded Results** | *\[Insert Screenshot Link Here\]* | 
-| **Profile Page** | *\[Insert Screenshot Link Here\]* | 
+| Quiz Creation Form | Essay Questions | MCQ Questions |Result Page|  
+| :---: | :---: | :---: | :---: |
+| ![Completed_Quiz_Creation_Form](https://github.com/user-attachments/assets/e276905d-1012-43ba-b5bd-80cd438c3d7c)| ![Essay_Questions_Creation](https://github.com/user-attachments/assets/33c65366-a281-4db2-a010-1dc61b08deca) | ![MCQ_Question_Answering](https://github.com/user-attachments/assets/026951b9-2f87-4222-9473-138fb2ca0b44) |![Result_Page](https://github.com/user-attachments/assets/5b9b167f-1226-4160-883b-06926e75b5e0) |
 
-*(Find all screenshots in the `Project_Resources/screenshots/` folder)*
+| Classes Dashboard | Role Selection Screen | Registration Form | Profile Page |  
+| :---: | :---: | :---: | :---: |
+| ![Classes_Dashboard](https://github.com/user-attachments/assets/dbe18e58-ffc3-4bf4-862e-e070dda118ad) | ![Role_Selection_Screen](https://github.com/user-attachments/assets/8c097c1e-3cfa-4262-9454-73ec18b6b559) |![Registration_Form](https://github.com/user-attachments/assets/5004691f-99d4-4e97-9ce2-889604b7abbc) | ![Profile_Page](https://github.com/user-attachments/assets/83c8e6b8-0ae8-437c-ab72-9cb3995a3a2a) |
+
+
 
 ### 📜 **Brochure & Banner Preview**
 
 <table width="100%">
   <tr>
-    <td align="center" width="50%"><img width="100%" alt="SIR_Banner" src="[Link to SIR_Banner.pdf image]" /></td>
-    <td align="center" width="50%"><img width="100%" alt="SIR_ID" src="[Link to SIR_ID.jpeg image]" /></td>
+    <td align="center" width="70%">
+      <img width="80%" alt="SIR_Brochure_Page_1" src="https://github.com/user-attachments/assets/4489f783-ec69-4dcc-b498-af6b0827341d" />
+    </td>
+    <td align="center" width="30%">
+      <img width="100%" alt="SIR_Banner" src="https://github.com/user-attachments/files/20963007/SIR_Banner.pdf" />
+    </td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img width="80%" alt="SIR_Brochure" src="[Link to SIR_Brochure.pdf image]" /></td>
+    <td align="center" width="70%">
+      <img width="80%" alt="SIR_Brochure_Page_2" src="https://github.com/user-attachments/assets/9a4ce600-59b8-49d3-a164-6a4659d40d73" />
+    </td>
+    <td align="center" width="30%">
+      <img width="100%" alt="SIR_ID" src="https://github.com/user-attachments/assets/b35e31c8-cd84-469b-bd2c-48d0435be67c" />
+    </td>
   </tr>
 </table>
+
+
 
 ## 🧠 AI System Architecture
 

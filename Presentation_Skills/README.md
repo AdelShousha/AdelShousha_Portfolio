@@ -119,7 +119,7 @@ As a featured student speaker, I had the privilege of welcoming the new cohort t
 
 <details id="octware-bi">
 <summary>
-  <strong>🧑‍🏫 Lead Presenter for Octware BI Circle</strong> (April 2023)
+  <strong>🐙 Lead Presenter for Octware BI Circle</strong> (April 2023)
 </summary>
 <br>
 

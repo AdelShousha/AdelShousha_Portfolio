@@ -1,13 +1,50 @@
 ## 🎤 Public Speaking & Presentations
-| **May<br>2022** | **September<br>2022** | **October<br>2022** | **April<br>2023** | **September<br>2023** | **January<br>2025** | **February<br>2025** | **June<br>2025** |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <a href="#student-visions">First-Year Finalist: "رؤى طلابية" Competition</a> | <a href="#victoris-1">Mobile App Competition Finalist: IEEE Victoris 1.0</a> | <a href="#ai-orientation">Selected Speaker for AI Department Orientation Day</a> | <a href="#octware-bi">BI Circle Lead: Orientation Day Presentation for Octware</a> | <a href="#victoris-2">Dual Award Winner: IEEE Victoris 2.0 Competition</a> | <a href="#project-sahla">Project Lead: Presenting the Architecture of SAHLA</a> | <a href="#data-visualization">Top-Scoring Presentation: Data Visualization with Matplotlib</a> | <a href="#project-sir">AI Developer: Presenting the SIR App</a> |
+
+```mermaid
+---
+config:
+  theme: 'dark'
+  themeVariables:
+    # Global colors for the diagram
+    textColor: '#FFFFFF'
+    lineColor: '#FFFFFF'
+
+    # Background color for each event from your palette
+    cScale0: '#FF6384'
+    cScale1: '#36A2EB'
+    cScale2: '#FFCE56'
+    cScale3: '#4BC0C0'
+    cScale4: '#9966FF'
+    cScale5: '#FF9F40'
+    cScale6: '#8AC926'
+    cScale7: '#F94144'
+
+    # Text color for the text inside each event block (setting to dark for better contrast on lighter backgrounds)
+    cScaleLabel0: '#FFFFFF'
+    cScaleLabel1: '#FFFFFF'
+    cScaleLabel2: '#24292F'
+    cScaleLabel3: '#24292F'
+    cScaleLabel4: '#FFFFFF'
+    cScaleLabel5: '#24292F'
+    cScaleLabel6: '#24292F'
+    cScaleLabel7: '#FFFFFF'
 
 ---
+timeline
+    title My Presentation & Project Timeline
+    May 2022  : 🏆 "رؤى طلابية" Competition Finalist (8th Place)
+    Sep 2022  : 🏅 IEEE Victoris 1.0 Finalist (4th Place)
+    Oct 2022  : 🎤 Selected Speaker for AI Dept. Orientation
+    Apr 2023  : 🐙 Lead Presenter for Octware BI Circle
+    Sep 2023  : 🏆 Dual Award Winner at IEEE Victoris 2.0
+    Jan 2025  : 🚀 Project Lead: Presenting SAHLA's Architecture
+    Feb 2025  : 💯 Top-Scoring Talk on Data Visualization
+    Jun 2025  : 🧠 AI Developer: Presenting SIR's AI Engine
 
+```
 <details id="student-visions">
 <summary>
-  <strong>🏆 First-Year Finalist: Top 10 Finish in University-Wide Competition</strong> (May 2022)
+  <strong>🏆 "رؤى طلابية" Competition Finalist (8th Place)</strong> (May 2022)
 </summary>
 <br>
 
@@ -32,7 +69,7 @@ I developed and presented this strategy to a panel of university deans and profe
 
 <details id="victoris-1">
 <summary>
-  <strong>🏅 Mobile App Competition Finalist: IEEE Victoris 1.0</strong> (September 2022)
+  <strong>🏅 IEEE Victoris 1.0 Finalist (4th Place)</strong> (September 2022)
 </summary>
 <br>
 
@@ -57,7 +94,7 @@ As the opening speaker for my team, I had the responsibility of being the very f
 
 <details id="ai-orientation">
 <summary>
-  <strong>🎤 Selected Speaker for AI Department Orientation Day</strong> (October 2022)
+  <strong>🎤 Selected Speaker for AI Dept. Orientation</strong> (October 2022)
 </summary>
 <br>
 
@@ -82,7 +119,7 @@ As a featured student speaker, I had the privilege of welcoming the new cohort t
 
 <details id="octware-bi">
 <summary>
-  <strong>🧑‍🏫 BI Circle Lead: Orientation Day Presentation for Octware</strong> (April 2023)
+  <strong>🧑‍🏫 Lead Presenter for Octware BI Circle</strong> (April 2023)
 </summary>
 <br>
 
@@ -107,7 +144,7 @@ In my capacity as the Head of the BI Circle for the Octware student activity tea
 
 <details id="victoris-2">
 <summary>
-  <strong>🏆 Dual Award Winner: IEEE Victoris 2.0 Competition</strong> (September 2023)
+  <strong>🏆 Dual Award Winner at IEEE Victoris 2.0</strong> (September 2023)
 </summary>
 <br>
 
@@ -132,7 +169,7 @@ As the opening presenter for my team, I introduced our "BrainUp" platform to the
 
 <details id="project-sahla">
 <summary>
-  <strong>🚀 Project Lead: Presenting the Architecture of SAHLA</strong> (January 2025)
+  <strong>🚀 Project Lead: Presenting SAHLA's Architecture</strong> (January 2025)
 </summary>
 <br>
 
@@ -159,7 +196,7 @@ As the Project Lead, I was responsible for the overall technical vision of SAHLA
 
 <details id="data-visualization">
 <summary>
-  <strong>💯 Top-Scoring Presentation: Data Visualization with Matplotlib</strong> (February 2025)
+  <strong>💯 Top-Scoring Talk on Data Visualization</strong> (February 2025)
 </summary>
 <br>
 
@@ -183,7 +220,7 @@ As a requirement for our Deep Learning course, I developed and delivered a prese
 
 <details id="project-sir">
 <summary>
-  <strong>🧠 AI Developer: Presenting the SIR App</strong> (June 2025)
+  <strong>🧠 AI Developer: Presenting SIR's AI Engine</strong> (June 2025)
 </summary>
 <br>
 

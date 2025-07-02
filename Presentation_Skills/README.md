@@ -59,7 +59,7 @@ I introduced our mobile app's concept, features, and implementation to the judge
 
 #### Media Gallery  
 
-* [📊 View the Slide Deck](2-IEEE_Victoris_1.0.pptx/2-IEEE_Victoris_1.0.pptx)
+* [📊 View the Slide Deck](2-IEEE_Victoris_1.0/2-IEEE_Victoris_1.0.pptx)
 * [💼 Read the LinkedIn Post](https://www.linkedin.com/posts/adel-shousha_ieeeabrvictoris-beabrtheabrvictor-activity-6980553742471331841-XoRx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c) 
   
 #### 📸 See Photo of the talk
@@ -101,7 +101,7 @@ Presented to peers and the Dean, earning formal recognition...
 
 #### Media Gallery  
 
-* [📊 View the Slide Deck](3-AIE_Orientation_Day.pdf/3-AIE_Orientation_Day.pdf)
+* [📊 View the Slide Deck](3-AIE_Orientation_Day/3-AIE_Orientation_Day.pdf)
 * [💼 Read the LinkedIn Post](https://www.linkedin.com/posts/adel-shousha_im-delighted-that-i-have-been-a-part-of-activity-6982219819953590272-pIV8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c) 
 
 #### 📸 See Photo of the talk
@@ -142,7 +142,7 @@ Introduced Business Intelligence and tools used by the team...
 Led the presentation to onboard new BI circle members...  
 
 #### Media Gallery  
-* [📊 View the Slide Deck](4-OctwareBI_Orientation_Day.pptx/4-OctwareBI_Orientation_Day.pptx)
+* [📊 View the Slide Deck](4-OctwareBI_Orientation_Day/4-OctwareBI_Orientation_Day.pptx)
 * [💼 Read the LinkedIn Post](https://www.linkedin.com/posts/adel-shousha_businessintelligence-octware-activity-7057701920454426624-Lg3R?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c) 
 
 
@@ -184,7 +184,7 @@ Developed BrainUp, an AI-powered education platform...
 Presented its design and won Best UI Award...  
 
 #### Media Gallery  
-* [📊 View the Slide Deck](5-IEEE_Victoris_2.0.pdf/5-IEEE_Victoris_2.0.pdf)
+* [📊 View the Slide Deck](5-IEEE_Victoris_2.0/5-IEEE_Victoris_2.0.pdf)
 * [💼 Read the LinkedIn Post](https://www.linkedin.com/posts/adel-shousha_%D9%88%D8%A3%D9%86-%D9%84%D9%8A%D8%B3-%D9%84%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86-%D8%A5%D9%84%D8%A7-%D9%85%D8%A7-%D8%B3%D8%B9%D9%89-activity-7111334475661271040-R7dN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c) 
 
 #### 📸 See Photo of the talk
@@ -225,7 +225,7 @@ SAHLA is an app that translates Arabic Sign Language and speech in real time...
 Designed and presented the complete architecture...  
 
 #### Media Gallery  
-* [📊 View the Slide Deck](https://github.com/AdelShousha/AdelShousha_Portfolio/tree/main/Graduation_Projects/Project1_SAHLA/Project_Resources)  
+* [📊 View the Slide Deck](https://github.com/AdelShousha/AdelShousha_Portfolio/blob/main/Graduation_Projects/Project1_SAHLA/Project_Resources/SAHLA_Slides.pptx)  
 * [👨‍💻 Explore the GitHub Repo](https://github.com/AdelShousha/AdelShousha_Portfolio/tree/main/Graduation_Projects/Project1_SAHLA)  
 * [💼 Read the LinkedIn Post](https://www.linkedin.com/posts/adel-shousha_%D9%B1%D9%84%D8%AD%D9%85%D8%AF-%D9%84%D9%84%D9%87-%D9%B1%D9%84%D8%B0%DB%8C-%D9%84%D9%87%DB%A5-%D9%85%D8%A7-%D9%81%DB%8C-activity-7293972055291490304-Mr8l?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c)  
 
@@ -256,7 +256,7 @@ My presentation focused on the critical role of data visualization in deep learn
 As a requirement for our Deep Learning course, I developed and delivered a presentation to my peers and the course TA. My clear explanation of the concepts and practical demonstration of Matplotlib's capabilities earned me the full mark for the assignment.  
 
 #### Media Gallery    
-* [📊 View the Slide Deck](7-Data_Visualization.pptx/7-Data_Visualization.pptx)  
+* [📊 View the Slide Deck](7-Data_Visualization/7-Data_Visualization.pptx)  
 
 
 #### 🎬 **Watch the Presentation**
@@ -289,7 +289,7 @@ Developed and presented the backend AI engine using Pydantic-AI and Gemini API..
 
 #### Media Gallery   
 * [📊 View the Slide Deck](https://github.com/AdelShousha/AdelShousha_Portfolio/blob/main/Graduation_Projects/Project2_SIR/Project_Resources/SIR_Slides.pptx)  
-* [👨‍💻 Explore the Project Repos](https://github.com/AdelShousha/AdelShousha_Portfolio/blob/main/Graduation_Projects/Project2_SIR/Project_Resources)  
+* [👨‍💻 Explore the Project Repos](https://github.com/AdelShousha/AdelShousha_Portfolio/blob/main/Graduation_Projects/Project2_SIR)  
 * [💼 Read the LinkedIn Post](https://www.linkedin.com/posts/adel-shousha_%D9%B1%D9%82%D8%B1%D8%A3-%D9%88%D8%B1%D8%A8%D9%83-%D9%B1%D9%84%D8%A3%D9%83%D8%B1%D9%85-%D9%B1%D9%84%D8%B0%DB%8C-activity-7345178146544988160-k9t8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeg2QkBsxn0Dn4gTJYB6IDSHbodceFcm3c)  
 
 #### 📸 See Photo of the talk

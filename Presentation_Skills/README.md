@@ -1,9 +1,6 @@
 # 🎤 Public Speaking & Presentations
 
 
-
-
-
 <details id="student-visions">
 <summary>
   <font size="10">🏆 "رؤى طلابية" Competition Finalist (8th Place) (May 2022)</font>
@@ -78,7 +75,7 @@ I introduced our mobile app's concept, features, and implementation to the judge
 #### 🎬 **Watch the Q&A with Judges**
 </details>
 <div align="center">
-  <a href="https://www.youtube.com/embed/YOUR_VIDEO_LINK">
+  <a href="https://youtu.be/PbUbGBiOXu8">
     <img src="https://github.com/user-attachments/assets/e82199e1-9088-4e55-9a32-ddb0b938a229" alt="presentation" width="1000">
   </a>
 </div>
@@ -119,7 +116,7 @@ Presented to peers and the Dean, earning formal recognition...
 #### 🎬 **Watch a Clip of the Presentation**
 </details>
 <div align="center">
-  <a href="https://www.youtube.com/embed/YOUR_VIDEO_LINK">
+  <a href="https://youtu.be/a1euK78pV04">
     <img src="https://github.com/user-attachments/assets/dd559b57-6e78-42bd-a543-1682a69c7410" alt="presentation" width="1000">
   </a>
 </div>
@@ -160,7 +157,7 @@ Led the presentation to onboard new BI circle members...
 #### 🎬 **Watch the Presentation**
 </details>
 <div align="center">
-  <a href="https://www.youtube.com/embed/YOUR_VIDEO_LINK">
+  <a href="https://youtu.be/S7nfOt715BA">
     <img src="https://github.com/user-attachments/assets/aee9f8a4-83c4-465c-8635-52f05e42bfa7" alt="presentation" width="1000">
   </a>
 </div>
@@ -232,7 +229,7 @@ Designed and presented the complete architecture...
 #### 🎬 **Watch the Presentation**
 </details>
 <div align="center">
-  <a href="https://www.youtube.com/embed/YOUR_VIDEO_LINK">
+  <a href="https://youtu.be/Uq9tgSagKR0">
     <img src="https://github.com/user-attachments/assets/a23ef66b-af35-4ea1-9df8-3113c1a26324" alt="presentation" width="1000">
   </a>
 </div>
@@ -256,8 +253,6 @@ As a requirement for our Deep Learning course, I developed and delivered a prese
 
 #### Media Gallery    
 * [📊 View the Slide Deck](https://your-slides-link-here)  
-
-<img width="1299" alt="Screenshot 2025-07-02 at 9 06 30 AM" src="" />
 
 
 #### 🎬 **Watch the Presentation**

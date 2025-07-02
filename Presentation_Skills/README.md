@@ -44,26 +44,37 @@ timeline
 ```
 <details id="student-visions">
 <summary>
-  <strong>🏆 "رؤى طلابية" Competition Finalist (8th Place)</strong> (May 2022)
+  <font size="10">🏆 "رؤى طلابية" Competition Finalist (8th Place) (May 2022)</font>
 </summary>
 <br>
-
+  
 * **Event:** "رؤى طلابية" (Student Visions) Competition - Mansoura University
 * **Achievement:** 8th Place Finish (As the youngest first-year participant)
 * **Audience:** Panel of university professors, the dean, and student competitors
 
-#### The Core Idea
+### The Core Idea
 I proposed a new strategy to accelerate electric car adoption in Egypt by creating a government-subsidized battery swapping network, addressing consumer concerns about charging time and range anxiety.
 
-#### Accomplishment
+### Accomplishment
 I developed and presented this strategy to a panel of university deans and professors. Competing against senior students from all engineering departments, I successfully secured a top-10 finish, demonstrating strong research and public speaking skills under pressure. This achievement was recognized with a certificate from the Dean of Engineering.
 
-#### Media Gallery
+### Media Gallery
 * [🎬 Watch the Final Presentation](https://your-video-link-here)
 * [📊 View the Slide Deck](https://your-slides-link-here)
-* [📸 See Award Photo](https://your-photos-link-here)
 
+#### 📸 See Photo of the talk
+| Presentation Highlights | Receiving the Certificate | Certificate of Achievement |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/80d4e936-49a4-4432-990c-085160c24a89" alt="Completed_Quiz_Creation_Form" width="250"> | <img src="https://github.com/user-attachments/assets/ae16b941-6136-4ddf-9693-8cf865cc3729" alt="Essay_Questions_Creation" width="250"> | <img src="https://github.com/user-attachments/assets/c892143c-b20d-414c-a03b-6879b443dd1a" alt="MCQ_Youtubeing" width="250"> |
+
+#### 🎬 **Watch the Final Presentation**
 </details>
+<div align="center">
+  <a href="https://www.youtube.com/embed/L2MjEZ3Lvxc?start=381&end=555">
+    <img src="https://github.com/user-attachments/assets/14c923b2-fb49-469e-a8ed-f0c6f7548d64" alt="presentation" width="1000">
+  </a>
+</div>
+
 
 ---
 
@@ -241,4 +252,12 @@ My presentation focused on the heart of the SIR platform: the AI engine I develo
 * [👨‍💻 Explore the Project Repos](https://your-repo-link-here)
 * [💼 Read the LinkedIn Post](https://your-linkedin-post-link-here)
 
+### 🎤 **Project Presentation**
 </details>
+<div align="center">
+    
+  <a href="https://www.youtube.com/embed/L2MjEZ3Lvxc?start=381&end=555">
+    <img src="https://github.com/user-attachments/assets/6dbb6ce4-c2e6-40ca-8c96-97dfc4b422b6" alt="presentation" width="1000">
+  </a>
+  
+</div>
